@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>topic 1 on Mike Home</title>
+    <link>/topics/topic-1/</link>
+    <description>Recent content in topic 1 on Mike Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>michael.r.metzler@gmail.com (Michael Metzler)</managingEditor>
+    <webMaster>michael.r.metzler@gmail.com (Michael Metzler)</webMaster>
+    <copyright>(c) 2019 Michael Metzler</copyright>
+    <lastBuildDate>Wed, 17 Apr 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/topics/topic-1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CO2 Emissions</title>
+      <link>/2019/04/17/2019-04-17-co2-emissions/</link>
+      <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
+      <author>michael.r.metzler@gmail.com (Michael Metzler)</author>
+      <guid>/2019/04/17/2019-04-17-co2-emissions/</guid>
+      <description>Carbon Dioxide Emissions from the World Bank’s World Development Indexlibrary(tidyverse)Preparing the dataFirst we need to import the data and clean up any issues
+Read in the filedf &amp;lt;- read_csv(&amp;quot;C:/datasets/co2_global_emissions.csv&amp;quot;)Take a look at the dataI use the str function to inspect the structure of the dataframe.There are two columns for the inidicator which in this case are all the same and can be removed.</description>
+    </item>
+    
+    <item>
+      <title>Election Fraud in North Carolina</title>
+      <link>/2019/04/17/2019-04-17-election-fraud-in-north-carolina/</link>
+      <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
+      <author>michael.r.metzler@gmail.com (Michael Metzler)</author>
+      <guid>/2019/04/17/2019-04-17-election-fraud-in-north-carolina/</guid>
+      <description>Prep WorkLoad Election DataThis project will be working with the precinct by precinct results of the 11/06/2018 midterm election in the state of North Carolina. These results were obtained from the North Carolina State Board of Elections &amp;amp; Ethics Enforcement website on 11/30/2018 at the following URL: https://dl.ncsbe.gov/ENRS/2018_11_06/results_pct_20181106.zip
+nc_results &amp;lt;- read_delim(&amp;quot;C:/datasets/results_pct_20181106.txt&amp;quot;, &amp;quot;\t&amp;quot;,escape_double = FALSE, trim_ws = TRUE)names(nc_results) &amp;lt;- names(nc_results) %&amp;gt;% tolower() %&amp;gt;%str_replace_all(&amp;quot; &amp;quot;, &amp;quot;_&amp;quot;)nc_results &amp;lt;- nc_results %&amp;gt;%mutate(choice = if_else(choice == &amp;quot;&amp;quot; | is.</description>
+    </item>
+    
+  </channel>
+</rss>
