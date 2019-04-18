@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Topics on Mike Home</title>
-    <link>/topics/</link>
+    <link>https://michaelm91.github.io/topics/</link>
     <description>Recent content in Topics on Mike Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -11,15 +11,15 @@
     <copyright>(c) 2019 Michael Metzler</copyright>
     <lastBuildDate>Wed, 17 Apr 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/topics/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://michaelm91.github.io/topics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>topic 1</title>
-      <link>/topics/topic-1/</link>
+      <link>https://michaelm91.github.io/topics/topic-1/</link>
       <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
       <author>michael.r.metzler@gmail.com (Michael Metzler)</author>
-      <guid>/topics/topic-1/</guid>
+      <guid>https://michaelm91.github.io/topics/topic-1/</guid>
       <description></description>
     </item>
     

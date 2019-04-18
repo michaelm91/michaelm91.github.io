@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Mike Home</title>
-    <link>/tags/</link>
+    <link>https://michaelm91.github.io/tags/</link>
     <description>Recent content in Tags on Mike Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -10,7 +10,7 @@
     <webMaster>michael.r.metzler@gmail.com (Michael Metzler)</webMaster>
     <copyright>(c) 2019 Michael Metzler</copyright>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://michaelm91.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
